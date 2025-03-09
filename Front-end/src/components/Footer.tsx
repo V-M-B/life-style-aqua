@@ -110,13 +110,13 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/visitors-count"
+                    <Link
+                      to="/visitors-count"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <User size={16} className="text-blue-600" />
                       Visitors Count
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -139,31 +139,31 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="/privacy"
+                    <Link
+                      to="/PrivacyPolicy"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <Lock size={16} className="text-blue-600" />
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/contact"
+                    <Link
+                      to="/contact"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <MessageSquare size={16} className="text-blue-600" />
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/faqs"
+                    <Link
+                    to="/faqs"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <FileText size={16} className="text-blue-600" />
                       FAQs
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

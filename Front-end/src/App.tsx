@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Shop from './pages/Shop.tsx';
 import TermsCondition from './pages/TermsCondition';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/authenticator" element={<Authenticator />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/terms&conditions" element={<TermsCondition />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+
       </Routes>
       <Footer />
     </Router>
