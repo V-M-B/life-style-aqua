@@ -1,6 +1,10 @@
-import React from 'react';
+import {useEffect} from 'react';
 
 const TermsCondition = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    })
+    
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-blue-600">

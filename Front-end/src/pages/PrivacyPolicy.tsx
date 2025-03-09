@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const PrivacyPolicy: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
   return (
     <div className="container mx-auto px-6 py-12 max-w-3xl">
       <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Privacy Policy</h1>
