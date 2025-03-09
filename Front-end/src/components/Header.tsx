@@ -22,23 +22,19 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/products" className="hover:text-red-500">
+            <Link to="/shop" className="hover:text-red-500">
               Shop
             </Link>
           </li>
-          <li>
-            <Link to="/about" className="hover:text-red-500">
-              About
-            </Link>
-          </li>
+          
           <li>
             <Link to="/authenticator" className="hover:text-red-500">
               Authenticator
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-red-500">
-              Contact
+            <Link to="/FAQContact" className="hover:text-red-500">
+              Contact Us
             </Link>
           </li>
         </ul>

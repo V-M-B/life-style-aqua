@@ -149,22 +149,14 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      to="/contact"
+                      to="/FAQContact"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <MessageSquare size={16} className="text-blue-600" />
-                      Contact Us
+                      Contact Us & FAQ
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                    to="/faqs"
-                      className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
-                    >
-                      <FileText size={16} className="text-blue-600" />
-                      FAQs
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
 
