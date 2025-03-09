@@ -12,6 +12,7 @@ import {
   Facebook,
   Linkedin,
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -129,13 +130,13 @@ const Footer = () => {
 
                 <ul className="space-y-3">
                   <li>
-                    <a
-                      href="/terms"
+                    <Link
+                      to="/terms&conditions"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <FileText size={16} className="text-blue-600" />
                       Terms & Conditions
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
