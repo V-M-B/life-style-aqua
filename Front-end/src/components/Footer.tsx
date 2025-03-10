@@ -8,9 +8,8 @@ import {
   Lock,
   MessageSquare,
   Instagram,
-  Twitter,
   Facebook,
-  Linkedin,
+
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -167,13 +166,13 @@ const Footer = () => {
                   NEWSLETTER
                 </h3>
 
-                <div className="flex mb-6">
+                <div className="flex mb-6 px-4 py-2">
                   <input
                     type="email"
                     placeholder="Your Email"
-                    className="px-4 py-2 rounded-l border text-blue-600 border-gray-600 focus:outline-none focus:ring-2 focus:ring-white w-full"
+                    className=" px-4 py-2 m-2.5 rounded-l border text-blue-600 border-gray-600 focus:outline-none focus:ring-2 focus:ring-white w-full"
                   />
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-r hover:bg-blue-700 transition">
+                  <button className="bg-blue-600 text-white px-4 py-4 rounded-r hover:bg-blue-700 transition  ">
                     Sign Up
                   </button>
                 </div>
@@ -181,26 +180,16 @@ const Footer = () => {
                 <div>
                   <p className="text-gray-700 mb-3">FOLLOW US</p>
                   <div className="flex gap-3">
+  
                     <a
-                      href="#"
-                      className="p-2 border border-gray-500 text-blue-600 rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
-                    >
-                      <Twitter size={18} />
-                    </a>
-                    <a
-                      href="#"
+                      href="https://www.facebook.com/yadesh.raju"
                       className="p-2 border border-gray-500 text-blue-600 rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
                     >
                       <Facebook size={18} />
                     </a>
+  
                     <a
-                      href="#"
-                      className="p-2 border border-gray-500 text-blue-600 rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
-                    >
-                      <Linkedin size={18} />
-                    </a>
-                    <a
-                      href="#"
+                      href="https://www.instagram.com/yadesh65"
                       className="p-2 border border-gray-500 text-blue-600  rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
                     >
                       <Instagram size={18} />
