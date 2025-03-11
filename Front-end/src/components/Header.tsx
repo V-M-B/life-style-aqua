@@ -26,14 +26,14 @@ function Header() {
               Shop
             </Link>
           </li>
-          
+
           <li>
             <Link to="/authenticator" className="hover:text-red-500">
               Authenticator
             </Link>
           </li>
           <li>
-            <Link to="/FAQContact" className="hover:text-red-500">
+            <Link to="/faq-contact" className="hover:text-red-500">
               Contact Us
             </Link>
           </li>
@@ -82,7 +82,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/products" className="block hover:text-red-500">
+              <Link to="/shop" className="block hover:text-red-500">
                 Shop
               </Link>
             </li>
@@ -97,7 +97,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="block hover:text-red-500">
+              <Link to="/faq-contact" className="block hover:text-red-500">
                 Contact
               </Link>
             </li>

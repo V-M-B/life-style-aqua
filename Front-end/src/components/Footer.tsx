@@ -9,7 +9,6 @@ import {
   MessageSquare,
   Instagram,
   Facebook,
-
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -139,7 +138,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      to="/PrivacyPolicy"
+                      to="/privacy-policy"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <Lock size={16} className="text-blue-600" />
@@ -148,14 +147,13 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      to="/FAQContact"
+                      to="/faq-contact"
                       className="text-gray-700 hover:text-blue-600 transition flex items-center gap-2"
                     >
                       <MessageSquare size={16} className="text-blue-600" />
                       Contact Us & FAQ
                     </Link>
                   </li>
-
                 </ul>
               </div>
 
@@ -180,14 +178,13 @@ const Footer = () => {
                 <div>
                   <p className="text-gray-700 mb-3">FOLLOW US</p>
                   <div className="flex gap-3">
-  
                     <a
                       href="https://www.facebook.com/yadesh.raju"
                       className="p-2 border border-gray-500 text-blue-600 rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
                     >
                       <Facebook size={18} />
                     </a>
-  
+
                     <a
                       href="https://www.instagram.com/yadesh65"
                       className="p-2 border border-gray-500 text-blue-600  rounded hover:bg-blue-600 hover:text-white hover:border-blue-600 transition"
