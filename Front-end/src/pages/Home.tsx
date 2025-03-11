@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+
 const videos = [
   { id: 1, title: "Customer's Video on Indo Super Red Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/24k%20Golden%20Albino.mp4" },
   { id: 2, title: "Customer's Video on 24K Golden Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/Malaysian%20golden%206-9.mp4" },
@@ -30,8 +31,13 @@ const testimonials = [
   },
 ];
 
+
+
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+
+
 
   const prevTestimonial = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
@@ -113,8 +119,10 @@ const Home = () => {
               <p className="text-gray-600 mt-2">
               The Arowana, a majestic freshwater fish, is known for its long, sleek body, metallic scales, and upturned mouth. Revered in many cultures as a symbol of prosperity, it thrives in large tanks with a carnivorous diet and ample swimming space.
               </p>
-              <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-                View More
+              <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition"
+             
+              >
+                <Link to="/shop/arowana">View More</Link>
               </button>
             </div>
             {/* Category Card 2 */}
@@ -129,7 +137,7 @@ const Home = () => {
               The Silver Dollar fish is a popular freshwater species known for its distinctive, disc-shaped body and shimmering silver scales. Typically found in schools, they are peaceful and make great community tank inhabitants.
               </p>
               <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-                View More
+              <Link to="/shop/silver-dollar">View More</Link>
               </button>
             </div>
             {/* Category Card 3 */}
@@ -144,7 +152,7 @@ const Home = () => {
               Discus fish are vibrant, disc-shaped freshwater fish from the Amazon, known for their stunning colors and graceful appearance. They require warm, soft water and specific care, making them a favorite among experienced aquarists.
               </p>
               <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-                View More
+              <Link to="/shop/discus">View More</Link>
               </button>
             </div>
 
@@ -160,7 +168,7 @@ const Home = () => {
               Fish food and accessories encompass a wide range of products designed to promote the health and well-being of aquatic pets. High-quality fish food is formulated to meet the nutritional needs of various species, while accessories include items like filters, heaters, and decorations that enhance the aquarium environment.
               </p>
               <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-                View More
+              <Link to="/shop/fish-food">View More</Link>
               </button>
             </div>
           </div>

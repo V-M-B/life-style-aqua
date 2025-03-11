@@ -2,8 +2,8 @@ import {useEffect} from 'react';
 
 const TermsCondition = () => {
   useEffect(() => {
-      window.scrollTo(0, 0);
-    })
+    window.scrollTo(0, 0);
+  }, []);
     
   return (
     <div className="container mx-auto px-4 py-8">

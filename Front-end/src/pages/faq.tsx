@@ -15,9 +15,9 @@ const FAQContact: React.FC = () => {
     { question: "How do I contact customer support?", answer: "You can contact us via email, phone, or by filling out the contact form below." },
   ];
 
-    useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  })
+  }, []);
 
   return (
     <div className="container mx-auto px-6 py-12 max-w-4xl">
