@@ -2,12 +2,11 @@ import { useEffect } from "react";
 
 
 const products = [
-  { id: 1, name: "Product 1", image: "/assets/product1.jpg" },
-  { id: 2, name: "Product 2", image: "/assets/product2.jpg" },
-  { id: 3, name: "Product 3", image: "/assets/product3.jpg" },
-  { id: 4, name: "Product 4", image: "/assets/product4.jpg" },
-  { id: 5, name: "Product 5", image: "/assets/product5.jpg" },
-  { id: 6, name: "Product 6", image: "/assets/product6.jpg" },
+  { id: 1, name: "Arowana", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Golden%20Head%20Arowana.png" },
+  { id: 2, name: "Silver Dollar", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Dollars.png" },
+  { id: 3, name: "Discus", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Category-Discus%20Fish.png" },
+  { id: 4, name: "Fish Foods", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Mc-Fish%20Food.png" },
+  
 ];
 
 const Products = () => {
