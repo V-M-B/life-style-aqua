@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+
+
 const products = [
   { id: 1, name: "Product 1", image: "/assets/product1.jpg" },
   { id: 2, name: "Product 2", image: "/assets/product2.jpg" },
@@ -8,6 +11,11 @@ const products = [
 ];
 
 const Products = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
+
   return (
     <div className="container mx-auto py-10">
       <h1 className="text-3xl font-bold text-center mb-8">Products</h1>

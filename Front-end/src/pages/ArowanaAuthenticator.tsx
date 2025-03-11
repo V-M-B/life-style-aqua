@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Authenticator = () => {
   const [tagId, setTagId] = useState("");
@@ -7,6 +7,10 @@ const Authenticator = () => {
     console.log("Searching for Tag ID:", tagId);
     // Implement search logic here
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">

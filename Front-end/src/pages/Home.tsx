@@ -1,8 +1,45 @@
 import { Link } from "react-router-dom";
-import backgroundVideo from "../assets/home-media/hero1/superhighbackgoldenfrom wahseahfarm-6-7incheswithcertificateand microchip-7850.mp4";
+import { useState } from "react";
+const videos = [
+  { id: 1, title: "Customer's Video on Indo Super Red Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/24k%20Golden%20Albino.mp4" },
+  { id: 2, title: "Customer's Video on 24K Golden Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/Malaysian%20golden%206-9.mp4" },
+  { id: 3, title: "Customer's Video on Indo Super Red Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/Rare%20Albino%2024K%20Golden%20Head%20Arowana.mp4" },
+  { id: 4, title: "Customer's Video on Platinum Arowana", url: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Hero1/superhighbackgoldenfrom%20wahseahfarm-6-7incheswithcertificateand%20microchip-7850.mp4" },
+];
 
+const testimonials = [
+  {
+    name: "Sneha",
+    review: "What a beautiful and happy experience buying 3 arowanas... Mr. Yadesh Sir was very patient and calm... Highly recommended!",
+  },
+  {
+    name: "Pratheesh R",
+    review: "Best place to buy good quality Arowana's, well maintained, and a must visit if you're serious about them!",
+  },
+  {
+    name: "Tanmay Bagkar",
+    review: "Absolutely delighted with my 24 Carat Gold Arowana purchase and the safe home delivery! Highly recommended!",
+  },
+  {
+    name: "Rahul Martin",
+    review: "Bought this stunning SHB Arowana and it’s just been a week, but I’m deeply attached already!",
+  },
+  {
+    name: "Saroj Jena",
+    review: "Ordered a super highback golden arowana and got the best quality ever! Loved it!",
+  },
+];
 
 const Home = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prevTestimonial = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
+  };
+
+  const nextTestimonial = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
+  };
   return (
     <div>
 <section id="hero" className="relative h-screen w-full overflow-hidden">
@@ -130,123 +167,119 @@ const Home = () => {
         </div>
       </section>
 
-      {/* NEW VARIETIES SECTION */}
-      <section className="bg-gray-50 py-12">
-      {/* NEW VARIETIES card 1 */}
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">New Varieties</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
-              <img
-                src="https://via.placeholder.com/400x250.png?text=Variety+1"
-                alt="Variety 1"
-                className="w-full h-auto"
-              />
-              <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold mb-2">Red Dragon Fish</h3>
-                <p className="text-gray-600">
-                  Newly arrived red dragon fish, perfect for aquariums.
-                </p>
-              </div>
-            </div>
-            
-            
-      {/* NEW VARIETIES card 2 */}
-            <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
-              <img
-                src="https://via.placeholder.com/400x250.png?text=Variety+2"
-                alt="Variety 2"
-                className="w-full h-auto"
-              />
-              <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold mb-2">Golden Discus</h3>
-                <p className="text-gray-600">
-                  Beautiful golden discus, vibrant and healthy.
-                </p>
-              </div>
-            </div>
-      {/* NEW VARIETIES card 3 */}
-      <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
-              <img
-                src="https://via.placeholder.com/400x250.png?text=Variety+2"
-                alt="Variety 2"
-                className="w-full h-auto"
-              />
-              <div className=" p-4 text-left">
-                <h3 className="text-xl font-semibold mb-2">Golden Discus</h3>
-                <p className="text-gray-600">
-                  Beautiful golden discus, vibrant and healthy.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        {/* New Varieties Section */}
+      <section className="bg-blue-50 py-12">
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl font-bold mb-8">New Varieties</h2>
 
-      {/* TESTIMONIALS */}
-      <section id="testimonials" className="py-12">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Testimonials</h2>
-          <div className="max-w-xl mx-auto space-y-8">
-            {/* Testimonial 1 */}
-            <div className="bg-white p-6 rounded shadow">
-              <p className="italic">
-                "I got my fish delivered in perfect condition. Absolutely
-                stunning Arowana!"
-              </p>
-              <h4 className="font-semibold mt-4">- John Doe</h4>
-            </div>
-            {/* Testimonial 2 */}
-            <div className="bg-white p-6 rounded shadow">
-              <p className="italic">
-                "Customer service was excellent and they guided me through every
-                step."
-              </p>
-              <h4 className="font-semibold mt-4">- Jane Smith</h4>
-            </div>
-            {/* Testimonial 3 */}
-            <div className="bg-white p-6 rounded shadow">
-              <p className="italic">
-                "The best place to buy exotic fish online! Highly recommended."
-              </p>
-              <h4 className="font-semibold mt-4">- Mike Johnson</h4>
-            </div>
-          </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      {/* Fish Card 1 */}
+      <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
+        <div className="relative">
+          <img
+            src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%209-10.png"
+            alt="Malaysian Crossback Golden (A)"
+            className="w-full h-52 object-cover"
+          />
+          <span className="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
+            9-10"
+          </span>
         </div>
-      </section>
+        <div className="p-4 text-left">
+          <h3 className="text-lg font-semibold mb-1">Malaysian Crossback Golden (A) 9-10</h3>
+
+          <div className="text-xl font-bold text-gray-800">₹13,500</div>
+          <button className="mt-3 flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Add to <span className="ml-2">🛒</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Fish Card 2 */}
+      <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
+        <div className="relative">
+          <img
+            src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%20%20.png"
+            alt="Malaysian Crossback Golden (A)"
+            className="w-full h-52 object-cover"
+          />
+          <span className="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
+            12-13"
+          </span>
+        </div>
+        <div className="p-4 text-left">
+          <h3 className="text-lg font-semibold mb-1">Malaysian Crossback Golden (A)</h3>
+         
+          <div className="text-xl font-bold text-gray-800">₹15,500</div>
+          <button className="mt-3 flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Add to <span className="ml-2">🛒</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Fish Card 3 */}
+      <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
+        <div className="relative">
+          <img
+            src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Indo%20super%20red%2012-13.png"
+            alt="Platinum Indo super red 12-13"
+            className="w-full h-52 object-cover"
+          />
+          <span className="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
+            10-12"
+          </span>
+        </div>
+        <div className="p-4 text-left">
+          <h3 className="text-lg font-semibold mb-1"> Indo super red 12-13"</h3>
+          <div className="text-xl font-bold text-gray-800">₹85,000</div>
+          <button className="mt-3 flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Add to <span className="ml-2">🛒</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" className="py-12 bg-gray-100">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl font-bold mb-8 text-red-700">Testimonials</h2>
+        <div className="relative max-w-3xl mx-auto">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <p className="italic text-gray-700">"{testimonials[currentIndex].review}"</p>
+            <h4 className="font-semibold mt-4 text-red-600">- {testimonials[currentIndex].name}</h4>
+          </div>
+          <button 
+            onClick={prevTestimonial} 
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-red-500 text-white px-3 py-2 rounded-full"
+          >
+            &#10094;
+          </button>
+          <button 
+            onClick={nextTestimonial} 
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-red-500 text-white px-3 py-2 rounded-full"
+          >
+            &#10095;
+          </button>
+        </div>
+      </div>
+    </section>
 
       {/* VLOGS */}
-      <section className="bg-gray-50 py-12">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Vlogs</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300x200.png?text=Vlog+1"
-                alt="Vlog 1"
-                className="w-full h-auto"
-              />
-              <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold">
-                  How to Care for Arowanas
-                </h3>
-              </div>
-            </div>
-            <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300x200.png?text=Vlog+2"
-                alt="Vlog 2"
-                className="w-full h-auto"
-              />
-              <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold">
-                  Feeding Techniques &amp; Tips
-                </h3>
-              </div>
-            </div>
+      <div className="video-section-container mb-8 bg-blue-50 p-8 rounded-lg text-center">
+      <h2 className="text-3xl font-bold text-center text-red-700 mb-6">VLOGS</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {videos.map((video) => (
+          <div key={video.id} className="video-card bg-white shadow-lg hover:shadow-xl transition p-4 rounded-lg text-center border border-gray-200">
+            <video className="w-full h-60 rounded-lg" autoPlay loop muted playsInline>
+              <source src={video.url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <h3 className="text-lg font-semibold text-red-700 mt-4">{video.title}</h3>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
 
       {/* BLOGS */}
       <section id="blogs" className="py-12">
@@ -255,7 +288,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
               <img
-                src="https://via.placeholder.com/400x250.png?text=Blog+1"
+                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%20%20.png"
                 alt="Blog 1"
                 className="w-full h-auto"
               />
@@ -270,7 +303,7 @@ const Home = () => {
             </div>
             <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
               <img
-                src="https://via.placeholder.com/400x250.png?text=Blog+2"
+                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Indo%20super%20red%2012-13.png"
                 alt="Blog 2"
                 className="w-full h-auto"
               />
