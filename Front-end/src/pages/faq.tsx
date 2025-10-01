@@ -65,7 +65,7 @@ const FAQContact: React.FC = () => {
           {/* Contact Info */}
           <div className="mt-6 text-center text-gray-700">
             <p>📧 <strong>Email:</strong> support@lifestyleaqua.com</p>
-            <p>📞 <strong>Phone:</strong> +91 9738276569</p>
+            <p>📞 <strong>Phone:</strong> +91 9611880338</p>
             <p>🏢 <strong>Address:</strong> Life Style Aqua, No 62, opp road to SBI bank, 2nd Cross Rd, near to dream machine, Ashwath Nagar, Sanjayanagara, Bengaluru, Karnataka 560094</p>
           </div>
         </div>

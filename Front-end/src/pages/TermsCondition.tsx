@@ -218,7 +218,7 @@ const TermsCondition = () => {
             In case of fish death we may make a video call to confirm the same
             and ask them to courier back the certificates or other relevant
             documents to our office location in Bangalore. Any queries contact
-            9738276569.
+            9611880338.
           </li>
         </ul>
         <p className="mb-4">

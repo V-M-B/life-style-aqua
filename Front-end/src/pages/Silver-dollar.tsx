@@ -2,12 +2,10 @@ import React from "react";
 
 const SilverDollar: React.FC = () => {
   const discusData = [
-    { id: 1, name: "Wide Bar Dollar ",size: 3, price: 850, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus1.png" },
-    { id: 2, name: "Wide Bar Dollar",size: 2.5, price: 800, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus2.png" },
-    { id: 3, name: "Red Hock Dollar", size: 3,price: 1000, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus3.png" },
-    { id: 4, name: "Black Berry Dollar",size: 2.5, price: 1250, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus4.png" },
-    { id: 5, name: "Black Berry Dollar",size: 3, price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus4.png" },
-   
+    { id: 1, name: "Wide Bar Dollar ",size: 3, price: 850, image: "https://fishlab.com/wp-content/uploads/2022/04/About-Silver-dollar-fish.jpg" },
+    { id: 2, name: "Wide Bar Dollar",size: 2.5, price: 800, image: "https://fishlab.com/wp-content/uploads/2022/04/Silver-dollar-tank-size.jpg" },
+    { id: 3, name: "Red Hock Dollar", size: 3,price: 1000, image: "https://fishlab.com/wp-content/uploads/2022/04/Silver-dollar-fish-breeding.jpg" },
+
   ];
 
   return (
@@ -18,7 +16,7 @@ const SilverDollar: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-4 py-8">
-        {/* Sort Options */}
+        {/* Sort Options
         <div className="flex justify-end mb-6">
           <div className="flex items-center">
             <span className="text-sm mr-2">Sort by:</span>
@@ -29,7 +27,7 @@ const SilverDollar: React.FC = () => {
               <option>Newest First</option>
             </select>
           </div>
-        </div>
+        </div>  */}
         
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -50,12 +48,12 @@ const SilverDollar: React.FC = () => {
                 </div>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-sm text-blue-500 font-medium">{fish.size}"</span>
-                  <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-md px-3 py-1.5 text-sm flex items-center transition-colors">
+                  {/* <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-md px-3 py-1.5 text-sm flex items-center transition-colors">
                     Add to
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                     </svg>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

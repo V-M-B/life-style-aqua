@@ -2,11 +2,11 @@ import React from "react";
 
 const Discus: React.FC = () => {
   const discusData = [
-    { id: 1, name: "Cobalt Blue Discus", price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus1.png" },
-    { id: 2, name: "Red Turquoise Discus", price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus2.png" },
-    { id: 3, name: "Golden Sunrise Discus", price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus3.png" },
-    { id: 4, name: "Leopard Snakeskin Discus", price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus4.png" },
-    { id: 5, name: "Pigeon Blood Discus", price: 1500, image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Discus/Discus5.png" },
+    { id: 1, name: "Cobalt Blue Discus", price: 1500, image: "https://info.pangovet.com/wp-content/uploads/2024/06/Green-Discus_Andrey-Armyagov-Shutterstock-scaled-1.jpg" },
+    { id: 2, name: "Red Turquoise Discus", price: 1500, image: "https://info.pangovet.com/wp-content/uploads/2024/06/red-sun-discus-fish_igor-Litvyak_Shutterstock.jpg" },
+    { id: 3, name: "Golden Sunrise Discus", price: 1500, image: "https://info.pangovet.com/wp-content/uploads/2024/06/Yellow-white-discus_Arunee-Rodloy_Shutterstock.jpg" },
+    { id: 4, name: "Leopard Snakeskin Discus", price: 1500, image: "https://info.pangovet.com/wp-content/uploads/2024/06/Brown-Discus_Roberto-Dani-Shutterstock.jpg" },
+    { id: 5, name: "Pigeon Blood Discus", price: 1500, image: "https://info.pangovet.com/wp-content/uploads/2024/06/albino-gold-discus-fish_Arunee-Rodloy_Shutterstock.jpg" },
   ];
 
   return (
@@ -18,7 +18,7 @@ const Discus: React.FC = () => {
       
       <div className="container mx-auto px-4 py-8">
         {/* Sort Options */}
-        <div className="flex justify-end mb-6">
+        {/* <div className="flex justify-end mb-6">
           <div className="flex items-center">
             <span className="text-sm mr-2">Sort by:</span>
             <select className="text-sm border-gray-200 rounded-md py-1 pl-3 pr-8 bg-white focus:ring-blue-500 focus:border-blue-500">
@@ -28,7 +28,7 @@ const Discus: React.FC = () => {
               <option>Newest First</option>
             </select>
           </div>
-        </div>
+        </div> */}
         
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -49,12 +49,12 @@ const Discus: React.FC = () => {
                 </div>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-sm text-blue-500 font-medium">2.5"</span>
-                  <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-md px-3 py-1.5 text-sm flex items-center transition-colors">
+                  {/* <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-md px-3 py-1.5 text-sm flex items-center transition-colors">
                     Add to
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                     </svg>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

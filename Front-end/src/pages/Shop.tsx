@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const products = [
-  { id: 1, name: "Arowana", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Golden%20Head%20Arowana.png", route: "/shop/arowana" },
-  { id: 2, name: "Silver Dollar", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Dollars.png", route: "/shop/silver-dollar" },
-  { id: 3, name: "Discus", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Category-Discus%20Fish.png", route: "/shop/discus" },
-  { id: 4, name: "Fish Foods", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Mc-Fish%20Food.png", route: "/shop/fish-food" },
+  { id: 1, name: "Arowana", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden-Head.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D", route: "/shop/arowana" },
+  { id: 2, name: "Silver Dollar", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Red hock dollar 3.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D", route: "/shop/silver-dollar" },
+  { id: 3, name: "Discus", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/SC-Discus.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D", route: "/shop/discus" },
+  { id: 4, name: "Fish Foods", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Hikari-Oranda-Gold-300g.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D", route: "/shop/fish-food" },
 ];
 
 

@@ -2,3 +2,5 @@
 build
 coverage
 node_modulesnpm
+node_modules/
+

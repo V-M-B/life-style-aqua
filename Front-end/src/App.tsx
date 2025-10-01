@@ -11,6 +11,8 @@ import Arowana from './pages/ArowanaPage.tsx';
 import SilverDollar from './pages/Silver-dollar.tsx'; // Corrected component name
 import Discus from './pages/Discus.tsx';
 import FishFood from './pages/fish-food.tsx';
+import Login from './pages/Login.tsx';
+import Signup from './pages/signup.tsx';
 
 export default function App() {
   return (
@@ -27,6 +29,8 @@ export default function App() {
         <Route path="/terms&conditions" element={<TermsCondition />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Corrected path */}
         <Route path="/faq-contact" element={<FAQContact />} /> {/* Corrected path */}
+        <Route path="/login" element={<Login />} /> 
+        <Route path="/signup" element={<Signup />} /> 
       </Routes>
       <Footer />
     </Router>

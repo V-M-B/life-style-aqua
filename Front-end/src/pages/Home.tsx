@@ -5,22 +5,22 @@ const videos = [
   {
     id: 1,
     title: "Customer's Video on Indo Super Red Arowana",
-    url: 'https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/24k%20Golden%20Albino.mp4',
+    url: 'https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/vlog%20-Indo%20super%20red1.mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D',
   },
   {
     id: 2,
     title: "Customer's Video on 24K Golden Arowana",
-    url: 'https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/Malaysian%20golden%206-9.mp4',
+    url: 'https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/vlog-24k golden .mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D',
   },
   {
     id: 3,
     title: "Customer's Video on Indo Super Red Arowana",
-    url: 'https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Vlog/Rare%20Albino%2024K%20Golden%20Head%20Arowana.mp4',
+    url: 'https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Malaysian Golden Vlog.mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D',
   },
   {
     id: 4,
     title: "Customer's Video on Platinum Arowana",
-    url: 'https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Hero1/superhighbackgoldenfrom%20wahseahfarm-6-7incheswithcertificateand%20microchip-7850.mp4',
+    url: 'https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/IndoSuperRedArowanaPremium23may (2).mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D',
   },
 ];
 
@@ -79,7 +79,7 @@ const Home = () => {
           style={{ height: '100vh' }}
         >
           <source
-            src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Hero1/superhighbackgoldenfrom%20wahseahfarm-6-7incheswithcertificateand%20microchip-7850.mp4"
+            src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/IndoSuperRedArowanaPremium23may (2).mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -132,9 +132,9 @@ const Home = () => {
             {/* Category Card 1 */}
             <div className="bg-white shadow hover:shadow-lg transition p-4 rounded hover:shadow-blue-300">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Golden%20Head%20Arowana.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/MC-Golden%20Head%20Arowana.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Fish 1"
-                className="w-full h-auto rounded"
+                className="w-full h-72 rounded"
               />
               <h3 className="text-xl font-semibold mt-4">Arowana</h3>
               <p className="text-gray-600 mt-2">
@@ -150,7 +150,7 @@ const Home = () => {
             {/* Category Card 2 */}
             <div className="bg-white shadow hover:shadow-lg transition p-4 rounded hover:shadow-blue-300">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/MC-Dollars.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Arapaima-B.JPG?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Fish 2"
                 className="w-full h-auto rounded"
               />
@@ -168,7 +168,7 @@ const Home = () => {
             {/* Category Card 3 */}
             <div className="bg-white shadow hover:shadow-lg transition p-4 rounded hover:shadow-blue-300">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Category-Discus%20Fish.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/SC-Discus.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Fish Food"
                 className="w-full h-auto rounded"
               />
@@ -185,9 +185,9 @@ const Home = () => {
             </div>
 
             {/* Category Card 4 */}
-            <div className="bg-white shadow hover:shadow-lg hover:shadow-blue-300 transition p-4 rounded md:col-start-2">
+            {/* <div className="bg-white shadow hover:shadow-lg hover:shadow-blue-300 transition p-4 rounded md:col-start-2">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Category/Mc-Fish%20Food.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden.mp4?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Fish 2"
                 className="w-full h-auto rounded"
               />
@@ -203,7 +203,7 @@ const Home = () => {
               <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
                 <Link to="/shop/fish-food">View More</Link>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -218,7 +218,7 @@ const Home = () => {
             <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
               <div className="relative">
                 <img
-                  src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%209-10.png"
+                  src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Indo-Super-Red-1.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                   alt="Malaysian Crossback Golden (A)"
                   className="w-full h-52 object-cover"
                 />
@@ -242,7 +242,7 @@ const Home = () => {
             <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
               <div className="relative">
                 <img
-                  src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%20%20.png"
+                  src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                   alt="Malaysian Crossback Golden (A)"
                   className="w-full h-52 object-cover"
                 />
@@ -266,7 +266,7 @@ const Home = () => {
             <div className="bg-white shadow-md hover:shadow-lg transition rounded-lg overflow-hidden">
               <div className="relative">
                 <img
-                  src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Indo%20super%20red%2012-13.png"
+                  src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden-Head.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                   alt="Platinum Indo super red 12-13"
                   className="w-full h-52 object-cover"
                 />
@@ -353,7 +353,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Malaysian%20Crossback%20Golden%20(A)%20%20.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Blog2.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Blog 1"
                 className="w-full h-auto"
               />
@@ -368,7 +368,7 @@ const Home = () => {
             </div>
             <div className="bg-white shadow hover:shadow-lg transition rounded overflow-hidden">
               <img
-                src="https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/New%20Varitey/Indo%20super%20red%2012-13.png"
+                src="https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Blog1.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D"
                 alt="Blog 2"
                 className="w-full h-auto"
               />

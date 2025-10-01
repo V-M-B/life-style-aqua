@@ -15,11 +15,11 @@ const FishCard: React.FC<{ fish: { name: string; image: string } }> = ({ fish })
 
 // Sample fish data
 const fishData = [
-  { name: "Super High Back Golden", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Arowana%20Page/MC-HighbackGolden.png" },
-  { name: "Malaysian Crossback Golden", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Arowana%20Page/MC-Malaysian%20Crossback%20golden.png" },
-  { name: "24K Golden Arowana", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Arowana%20Page/MC-Golden%20Head%20Arowana.png" },
-  { name: "Golden Head Red Base", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Arowana%20Page/Mc-Golden%20Head%20Bule%20Base.png" },
-  { name: "India Super Red", image: "https://nhyudcwevlaeklzgyvfe.supabase.co/storage/v1/object/public/media/Arowana%20Page/MC-Indo%20Super%20Red.png" },
+  { name: "Super High Back Golden", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D" },
+  { name: "Malaysian Crossback ", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/vlog4.PNG?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D" },
+  { name: "24K Golden Arowana", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/MC-Golden%20Head%20Arowana.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D" },
+  { name: "Golden Head Red Base", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/24K-Golden-Head.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D" },
+  { name: "India Super Red", image: "https://ecprdstorage01.blob.core.windows.net/lifestyleaqua/images/Indo-Super-Red-1.png?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2099-03-30T23:12:15Z&st=2023-03-30T15:12:15Z&spr=https&sig=tpZd7lCFggnHkiANSByPfZ8nJMnUfY0C2Yr3yOm2fZw%3D" },
 ];
 
 // Main Arowana Page Component
